@@ -42,6 +42,8 @@ main {
   align-items: center;
 }
 
-.main-links {
-  background-color: #cbccdb;
+.logo-styling{
+  height: 160%;
+  width: 130%;
 }
+
