@@ -77,7 +77,10 @@ main {
 .mindstorms-content-kleur {
   background-color: #cbccdb;
 }
-
+.main-content:hover{
+  height: 72%;
+  width: 24%;
+}
 @media only screen and (max-width: 600px) {
   /*onder 600px frontpage*/
   main {
@@ -104,11 +107,16 @@ main {
     width: 90%;
     margin-top: 5%;
   }
+  .main-content:hover{
+    height: 32%;
+    width: 92%;
+  }
   a{
     font-size: large;
   }
   a:hover{
     font-size: x-large;
   }
+
 }
 
