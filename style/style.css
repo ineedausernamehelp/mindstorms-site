@@ -13,6 +13,12 @@ a {
   color: #484b6a;
   height: 50%;
 }
+a:hover {
+  font-size: xx-large;
+}
+.op-pagina-streep{
+  text-decoration: underline;
+}
 header {
   height: 12%;
   border-bottom: 3px solid #32778e;
