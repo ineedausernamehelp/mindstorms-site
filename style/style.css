@@ -9,14 +9,14 @@
 /*header*/
 a {
   text-decoration: none;
-  font-size: x-large;
+  font-size: large;
   color: #484b6a;
   height: 50%;
 }
 a:hover {
-  font-size: xx-large;
+  font-size: x-large;
 }
-.op-pagina-streep{
+.op-pagina-streep {
   text-decoration: underline;
 }
 header {
@@ -54,31 +54,55 @@ main {
   align-items: center;
   justify-content: center;
 }
-.main-flex{
+.main-flex {
   display: flex;
   flex-direction: column;
 }
-.main-foto-styling{
+.main-foto-styling {
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   width: 100%;
   border-bottom: 5px solid #32778e;
 }
-.main-content-text{
+.main-content-text {
   background-color: #cbccdb;
   height: 20%;
 }
-/*
-/* paginas */
 
-.mindstorms-content{
+.mindstorms-content {
   width: 35%;
   border-radius: 15%;
   height: 65%;
-
 }
-.mindstorms-content-kleur{
+.mindstorms-content-kleur {
   background-color: #cbccdb;
 }
 
+@media only screen and (max-width: 600px) {
+  /*onder 600px frontpage*/
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main-content {
+    width: 90%;
+    height: 30%;
+  }
+  .margin-media {
+    margin-top: 5%;
+  }
+  .logo-styling {
+    height: 120%;
+    width: 120%;
+  }
+  header {
+    height: 5%;
+  }
+  .mindstorms-content{
+    height: 30%;
+    width: 90%;
+    margin-top: 5%;
+  }
+}
 
