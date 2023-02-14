@@ -6,6 +6,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+/*header*/
 a {
   text-decoration: none;
   font-size: x-large;
@@ -13,7 +14,7 @@ a {
   height: 50%;
 }
 header {
-  height: 10%;
+  height: 12%;
   border-bottom: 3px solid #32778e;
 }
 nav {
@@ -22,6 +23,10 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
+.logo-styling {
+  height: 180%;
+  width: 130%;
+}
 main {
   height: 85%;
   display: flex;
@@ -29,6 +34,8 @@ main {
   justify-content: space-around;
   align-items: center;
 }
+
+/* frontpage */
 .main-content {
   display: flex;
   gap: 5%;
@@ -55,8 +62,14 @@ main {
   background-color: #cbccdb;
   height: 20%;
 }
-.logo-styling {
-  height: 180%;
-  width: 130%;
-}
+/* mindstorms */
 
+.mindstorms-content{
+  width: 35%;
+  border-radius: 15%;
+  height: 65%;
+
+}
+.mindstorms-content-kleur{
+  background-color: #cbccdb;
+}
