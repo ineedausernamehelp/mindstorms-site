@@ -10,7 +10,8 @@
 a {
   text-decoration: none;
   font-size: x-large;
-  color: #484b6a;
+  color: #32778e;
+  
   height: 50%;
 }
 a:hover {
@@ -48,7 +49,7 @@ main {
   height: 70%;
   width: 22%;
   background-color: #cbccdb;
-  color: #484b6a;
+  color: #32778e;
   border-radius: 10%;
   font-size: xx-large;
   align-items: center;
@@ -88,6 +89,7 @@ main {
   font-size: larger;
   height: 90%;
   width: 90%;
+  color: #484b6a;
 }
 /* behind the scenes */
 
@@ -101,6 +103,7 @@ main {
   font-size: x-large;
   margin-top: 5%;
   height: 10%;
+  color: #32778e;
 }
 
 @media only screen and (max-width: 600px) {
@@ -144,7 +147,7 @@ main {
     .mindstorms-content{
       height: 75%;
     }
-    
+
 
 }
 
