@@ -68,19 +68,41 @@ main {
   background-color: #cbccdb;
   height: 20%;
 }
-
-.mindstorms-content {
-  width: 35%;
-  border-radius: 15%;
-  height: 65%;
-}
-.mindstorms-content-kleur {
-  background-color: #cbccdb;
-}
 .main-content:hover{
   height: 72%;
   width: 24%;
 }
+/* andere paginas */
+.mindstorms-content {
+  width: 30%;
+  height: 50%;
+  border-radius: 15%;  
+}
+.mindstorms-content-kleur {
+  background-color: #cbccdb;
+}
+.mindstorms-text-styling{
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-right: 2%;
+  font-size: larger;
+  height: 90%;
+  width: 90%;
+}
+/* behind the scenes */
+
+.behind-the-scenes-video{
+  height: 50%;
+  width: 50%;
+  background-color: #cbccdb;
+  border-radius: 10%;
+}
+.behind-the-scenes-text-styling{
+  font-size: x-large;
+  margin-top: 5%;
+  height: 10%;
+}
+
 @media only screen and (max-width: 600px) {
   /*onder 600px frontpage*/
   main {
@@ -117,6 +139,12 @@ main {
   a:hover{
     font-size: x-large;
   }
+  /* mindstorms */
+
+    .mindstorms-content{
+      height: 75%;
+    }
+    
 
 }
 
