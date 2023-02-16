@@ -11,7 +11,7 @@ a {
   text-decoration: none;
   font-size: x-large;
   color: #32778e;
-  
+
   height: 50%;
 }
 a:hover {
@@ -69,7 +69,7 @@ main {
   background-color: #cbccdb;
   height: 20%;
 }
-.main-content:hover{
+.main-content:hover {
   height: 72%;
   width: 24%;
 }
@@ -77,12 +77,12 @@ main {
 .mindstorms-content {
   width: 30%;
   height: 50%;
-  border-radius: 15%;  
+  border-radius: 15%;
 }
 .mindstorms-content-kleur {
   background-color: #cbccdb;
 }
-.mindstorms-text-styling{
+.mindstorms-text-styling {
   margin-left: 5%;
   margin-top: 3%;
   margin-right: 2%;
@@ -93,12 +93,12 @@ main {
 }
 /* behind the scenes */
 
-.behind-the-scenes-video{
+.behind-the-scenes-video {
   height: 50%;
   width: 50%;
   border-radius: 10%;
 }
-.behind-the-scenes-text-styling{
+.behind-the-scenes-text-styling {
   font-size: x-large;
   margin-top: 5%;
   height: 10%;
@@ -126,27 +126,24 @@ main {
   header {
     height: 5%;
   }
-  .mindstorms-content{
+  .mindstorms-content {
     height: 30%;
     width: 90%;
     margin-top: 5%;
   }
-  .main-content:hover{
+  .main-content:hover {
     height: 32%;
     width: 92%;
   }
-  a{
+  a {
     font-size: large;
   }
-  a:hover{
+  a:hover {
     font-size: x-large;
   }
   /* mindstorms */
 
-    .mindstorms-content{
-      height: 75%;
-    }
-
-
+  .mindstorms-content {
+    height: 75%;
+  }
 }
-
